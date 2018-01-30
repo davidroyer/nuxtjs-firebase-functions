@@ -5,7 +5,7 @@
         <nuxt-link to="/page2">Page 2</nuxt-link>
         <nuxt-link to="/page3">Page 3</nuxt-link>
     </nav>
-    <nuxt/>
+    <nuxt keep-alive/>
   </div>
 </template>
 
