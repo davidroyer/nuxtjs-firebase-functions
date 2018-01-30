@@ -10,6 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "serve": "firebase serve --only functions,hosting",
+    "prepare": "yarn generate && yarn build",
     "deploy": "firebase deploy",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
